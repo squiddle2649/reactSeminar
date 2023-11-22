@@ -1,9 +1,13 @@
-import { Link } from 'react-router-dom';
+import Header from './../../components/header'
 function Filmprojekt(){
     return <div>
-        <h2>Stuff about the film</h2>
-        <Link to = "/berufskunde">Berufskunde</Link>
-            <Link to = "/">main page</Link>
+        <Header
+        title="Filmprojekt"
+        link1="/"
+        link2="berufskunde"
+        link1Title="Main page"
+        link2Title="Berufskunde"
+        ></Header>
     </div>
 }
 export default Filmprojekt;

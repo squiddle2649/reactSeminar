@@ -1,21 +1,33 @@
-import ReactDOM from 'react-dom/client';
 import { Link } from 'react-router-dom';
 
-window.appleFont = "Inter,-apple-system,BlinkMacSystemFont,avenir next,avenir,segoe ui,helvetica neue,helvetica,Cantarell,Ubuntu,roboto,noto,arial,sans-serif"
-function Header(){
-  const myStyle = {
-    fontFamily:window.appleFont
-  }
+function Header(props){
   const containerStyle={
     display:"flex",
     justifyContent:"center",
     alignItems:"center",
-    flexDirection:"column"
+    flexDirection:"column",
+    marginBottom:"0px",
+    marginTop:"20px"
   }
-  return (<div style={containerStyle}>
-    <h1 style = {myStyle}>P-Seminar-Portfolio</h1>
-    <h2 style = {{fontFamily:window.appleFont}}>Bruno Avelar</h2>
-  </div>)
+  const linkStyle={
+    display:"flex",
+    justifyContent:"center",
+    alignItems:"center",
+    flexDirection:"row"
+  }
+  const ElementStyle={
+    margin:"15px",
+    height:"fit-content"
+  }
+  return(
+    <div style={containerStyle}>
+      <h1>{props.title}</h1>
+      <div style={linkStyle}>
+        <Link to={props.link1} style = {ElementStyle}><h3>{props.link1Title}</h3></Link>
+        <Link to={props.link2} style = {ElementStyle}><h3>{props.link2Title}</h3></Link>
+      </div>
+    </div>
+  )
 }
 
 export default Header

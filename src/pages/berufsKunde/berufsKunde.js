@@ -1,9 +1,16 @@
-import { Link } from 'react-router-dom';
+
+import Header from './../../components/header'
+
 function Berufskunde(){
     return <div>
-        <h2>Stuff about berufskunde</h2>
-        <Link to = "/">main page</Link>
-        <Link to = "/filmprojekt">Filmprojekt</Link>
+        <Header 
+        title="Berufskunde" 
+        link1="/" 
+        link2="/filmprojekt"
+        link1Title="Main page"
+        link2Title="Filmprojekt"
+        ></Header>
+
     </div>
 
 }

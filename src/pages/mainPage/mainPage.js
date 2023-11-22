@@ -1,11 +1,11 @@
 import React from 'react';
-import Header from './../../components/header'
+import MainPageHeader from './mainPageHeader'
 import TwoButtons from './twoButtons'
 
 function MainPage() {
   return (
     <div>
-        <Header></Header>
+        <MainPageHeader></MainPageHeader>
         <TwoButtons title1="Berufskunde" title2="Filmprojekt"></TwoButtons>
     </div>
 
