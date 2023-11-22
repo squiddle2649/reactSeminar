@@ -1,0 +1,32 @@
+:root {
+    --appleFont: Inter,-apple-system,BlinkMacSystemFont,avenir next,avenir,segoe ui,helvetica neue,helvetica,Cantarell,Ubuntu,roboto,noto,arial,sans-seri;
+  }
+
+container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    color:rgb(182, 182, 182)
+}
+
+.button{
+    font-family: var(--appleFont);
+    background-color:black;
+    color:white;
+    border-radius:10px;
+    width:45%;
+    height:45vh;
+    margin:20px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-decoration: none;
+    transition-duration: 500ms;
+    border:3px solid black
+}
+.berufButton:hover,
+.filmButton:hover{
+    background-color: white;
+    color: black;
+    
+}
