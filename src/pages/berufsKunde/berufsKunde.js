@@ -1,5 +1,6 @@
 
 import Header from './../../components/header'
+import Timeline from './../../components/timeline/timeline'
 
 function Berufskunde(){
     return <div>
@@ -10,7 +11,7 @@ function Berufskunde(){
         link1Title="Main page"
         link2Title="Filmprojekt"
         ></Header>
-
+        <Timeline></Timeline>
     </div>
 
 }
