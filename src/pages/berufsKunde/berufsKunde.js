@@ -1,6 +1,7 @@
 
 import Header from './../../components/header'
-import Block from '../../components/grid/grid'
+import Grid from './grid/grid'
+import Block from './grid/block'
 
 function Berufskunde(){
     return <div>
@@ -11,7 +12,12 @@ function Berufskunde(){
         link1Title="Main page"
         link2Title="Filmprojekt"
         ></Header>
-        <Block></Block>
+        <Grid>
+            <Block title ="My strengths" ></Block>
+            <Block title ="My weaknesses" ></Block>
+            <Block title ="Berufsabend" ></Block>
+
+        </Grid>
     </div>
 
 }

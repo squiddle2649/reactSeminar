@@ -3,10 +3,10 @@
     --columnWidth:0.33333fr
 }
 
-.gridContainer, .blockContainer{
+.gridContainer, .blockContainer, .block, .blockText{
     display: flex;
     justify-content: center;
-    align-items: center;
+    
 }
 .grid{
     width: 80%;
@@ -61,4 +61,16 @@
     width:80%;
     background-color: rgb(76, 76, 76) ;
     aspect-ratio: 16/12;
+    align-items:end;
+}
+.blockText{
+    border:3px solid rgb(76,76,76);
+    border-radius: 10px;
+    height:27%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    align-items: center;
+    user-select: none;
+
 }
