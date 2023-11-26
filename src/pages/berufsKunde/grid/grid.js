@@ -11,7 +11,7 @@ function Block(props){
     </div>
 }
 
-function Grid(props){
+function Grid(){
     return <div className ="gridContainer">
         <div className = "grid">
         <Block title ="My strengths" ></Block>
