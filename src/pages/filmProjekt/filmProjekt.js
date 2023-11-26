@@ -1,5 +1,5 @@
 import Header from './../../components/header'
-import Timeline from './../../components/timeline/timeline'
+import Timeline from './timeline/timeline'
 function Filmprojekt(){
     return <div>
         <Header
@@ -9,7 +9,6 @@ function Filmprojekt(){
         link1Title="Main page"
         link2Title="Berufskunde"
         ></Header>
-        <Timeline></Timeline>
     </div>
 }
 export default Filmprojekt;

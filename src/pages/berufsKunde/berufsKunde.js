@@ -1,9 +1,10 @@
 
 import Header from './../../components/header'
 import Grid from './grid/grid'
-import Block from './grid/block'
+
 
 function Berufskunde(){
+    const titles = ["Berufsabend", "meine Schwächen", "meine Stärken"]
     return <div>
         <Header 
         title="Berufskunde" 
@@ -12,11 +13,7 @@ function Berufskunde(){
         link1Title="Main page"
         link2Title="Filmprojekt"
         ></Header>
-        <Grid>
-            <Block title ="My strengths" ></Block>
-            <Block title ="My weaknesses" ></Block>
-            <Block title ="Berufsabend" ></Block>
-
+        <Grid titles = {titles}>
         </Grid>
     </div>
 
