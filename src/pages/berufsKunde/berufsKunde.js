@@ -4,7 +4,7 @@ import Grid from './grid/grid'
 
 
 function Berufskunde(){
-    const titles = ["Berufsabend", "meine Schwächen", "meine Stärken"]
+    const titles = ["Berufsabend", "meine Schwächen", "meine Stärken","New item"]
     return <div>
         <Header 
         title="Berufskunde" 

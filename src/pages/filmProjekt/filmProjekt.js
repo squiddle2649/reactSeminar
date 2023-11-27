@@ -3,8 +3,11 @@ import Timeline from './timeline/timeline'
 function Filmprojekt(){
     const events = [
         { date: new Date('2023-9-18'), title: 'Und die sind toll' },
-        { date: new Date('2023-04-10'), title: 'Event 2' },
-        { date: new Date('2023-8-05'), title: 'Event 3' },
+        { date: new Date('2023-11-2'), title: 'P-Seminar Stunde' },
+        { date: new Date('2024-3-15'), title: 'filming day' },
+
+        { date: new Date('2024-7-2'), title: 'the end' }
+
       ];
     return <div>
         <Header
