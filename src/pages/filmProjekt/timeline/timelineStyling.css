@@ -32,6 +32,7 @@
     flex-direction: row;
 }
 .timelineItemInfo{
+    
     margin-left: 50px;
     display: flex;
     align-items: start;
@@ -46,8 +47,10 @@
     border-radius: 5px;
     margin: 0;
     background-color: var(--coolBlue);
+    
 }
 .itemText{
     margin: 0;
     width: 100%;
+    color: black;
 }
