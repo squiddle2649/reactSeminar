@@ -1,14 +1,14 @@
 import './gridStyling.css'
-
+import { Link } from 'react-router-dom';
 function Block(props){
     
-    return <div className = "blockContainer">
-        <div className = "block">
-            <div className = "blockText">
-                {props.title}
+    return <Link style={{textDecoration:"none"}}  className="blockContainer" to = {`/berufskunde/${props.title}`}>
+            <div className = "block">
+                <div className = "blockText">
+                    {props.title}
+                </div>
             </div>
-        </div>
-    </div>
+        </Link>
 }
 
 function Grid(props){
@@ -17,12 +17,7 @@ function Grid(props){
         <div className = "grid">
             {array.map((i)=>(
                 <Block title ={i}></Block>
-            ))}
-            {/* <Block title ="My strengths" ></Block>
-            <Block title ="My weaknesses" ></Block>
-            <Block title ="Berufsabend" ></Block>            
-            <Block title ="new" ></Block>*/}
-            
+            ))}            
         </div>
     </div>
 }

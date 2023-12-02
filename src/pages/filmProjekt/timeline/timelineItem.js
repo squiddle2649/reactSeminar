@@ -16,7 +16,7 @@ function TimelineItem(props){
     //with this variable, we can position the item properly on the timeline depending on its date.
     const dateString = `${myDate.getDate()}.${myDate.getMonth()+1}.${myDate.getFullYear()}`
     return <Link className="itemContainer" to={`/filmprojekt/${props.title}`}
-            style={{position:'absolute',top:`${percentFromTop}%`}}>
+            style={{position:'absolute',top:`${percentFromTop}%`,textDecoration:"none"}}>
                 <div className='timelineItem'>
                 <div class="timelineItemInfo">
                     <h2 className = "itemTitle">
