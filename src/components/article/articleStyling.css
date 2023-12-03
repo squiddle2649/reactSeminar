@@ -1,9 +1,18 @@
 .articleHeader{
-    width: 60%;
+    width: 40%;
 }
-.articleContainer, .articleHeader{
+.articleContainer{
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;   
+    line-height: 1.8; /* Adjust this value to control the line spacing */
+    font-size:larger;
+    font-weight: 500;
+}
+.articleHeader{
+    align-items: start;
+}
+li{
+    margin-top:10px;
 }

@@ -19,6 +19,15 @@ function Header(props){
     margin:"15px",
     height:"fit-content"
   }
+  if(props.title===null){
+    return(
+        <div style={linkStyle}>
+          <Link to={props.link1} style = {ElementStyle}><h3>{props.link1Title}</h3></Link>
+          <Link to={props.link2} style = {ElementStyle}><h3>{props.link2Title}</h3></Link>
+        </div>
+      
+    )
+  }
   return(
     <div style={containerStyle}>
       <h1>{props.title}</h1>

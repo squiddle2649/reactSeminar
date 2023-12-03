@@ -1,7 +1,7 @@
 import Header from './../../components/header'
 import Timeline from './timeline/timeline'
 const events = [
-    { date: new Date('2023-9-18'), title: 'Und die sind toll' },
+    { date: new Date('2023-9-18'), title: 'Einführung' },
     { date: new Date('2023-11-2'), title: 'P-Seminar Stunde' },
   ];
 window.filmEvents = events.map((i)=>(i.title))
