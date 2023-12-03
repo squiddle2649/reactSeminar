@@ -24,6 +24,8 @@ function FilmprojektText(props){
                 <li>Schöne Kinematographie: die Aufnahmen und Kamerawinkel haben sehr gut das Leben von Frederika illustriert und haben zum dokumentarischen Erzählen beigetragen.</li>
                 <li>Obwohl es im einem Haus voller Tiere gefilmt wurde, hatte der Ton eine sehr hohe Qualität</li>
             </ul>
+            
+
         </div>;
       } else {
         return <p>not Einführung</p>;

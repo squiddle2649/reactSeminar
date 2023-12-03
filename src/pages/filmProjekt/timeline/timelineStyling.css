@@ -20,6 +20,9 @@
     position: relative;
         
 }
+.month{
+    margin-right: 50px;
+}
 .timelineItem{
     
     width:30px;

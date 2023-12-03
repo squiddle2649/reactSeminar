@@ -12,6 +12,10 @@ function Timeline(props){
               date = {event.date}>
               </TimelineItem>
             })}
+            <TimelineItem
+            title="november"
+            date={new Date(2023, 11, 1)}
+            ></TimelineItem>
         </div>
     </div>
 }
