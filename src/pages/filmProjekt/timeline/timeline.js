@@ -8,14 +8,12 @@ function Timeline(props){
             {myEvents.map((event)=>{
                 
              return <TimelineItem 
+             link={event.link}
              title = {event.title}
               date = {event.date}>
               </TimelineItem>
             })}
-            <TimelineItem
-            title="november"
-            date={new Date(2023, 11, 1)}
-            ></TimelineItem>
+            
         </div>
     </div>
 }

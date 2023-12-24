@@ -3,7 +3,7 @@ import Header from './../../components/header'
 import Grid from './grid/grid'
 
 
-window.berufTitles = ["Berufsabend", "meine Schwächen", "meine Stärken","New item"]
+const berufTitles = ["Berufsabend", "meine Schwächen", "meine Stärken","New item"]
 function Berufskunde(){
     return <div>
         <Header 
@@ -13,7 +13,7 @@ function Berufskunde(){
         link1Title="Main page"
         link2Title="Filmprojekt"
         ></Header>
-        <Grid titles = {window.berufTitles}>
+        <Grid titles = {berufTitles}>
         </Grid>
     </div>
 

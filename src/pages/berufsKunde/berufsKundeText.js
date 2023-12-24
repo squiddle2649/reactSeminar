@@ -4,6 +4,7 @@ import Header from './../../components/header'
 function BerufText(props){
     return <div>
     <Header 
+    article={true}
     title={null}
     link1="/" 
     link2="/filmprojekt"
@@ -27,12 +28,12 @@ Ein weiterer Grund für mein Interesse an dem Beruf dieser Person ist, dass er s
   if(props.topic === 'meine Stärken') {
     return <div>
     <h1>Meine Stärken</h1>
-    <p>lisuefhsufhsieufhs </p>
+    
 </div>;}
   if(props.topic === 'meine Schwächen') {
     return <div>
     <h1>Meine Schwächen</h1>
-    <p>I am a creeeeeep</p>
+    
 </div>;}
 })()
 }

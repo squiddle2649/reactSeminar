@@ -19,6 +19,13 @@ function Header(props){
     margin:"15px",
     height:"fit-content"
   }
+  if(props.article){
+    return <div style={linkStyle}>
+    <Link to={"/filmprojekt"} style = {ElementStyle}><h3>Filmprojekt</h3></Link>
+    <Link to={"/"} style = {ElementStyle}><h3>Main page</h3></Link>
+    <Link to={"/berufskunde"} style = {ElementStyle}><h3>Berufskunde</h3></Link>
+  </div>
+  }
   if(props.title===null){
     return(
         <div style={linkStyle}>

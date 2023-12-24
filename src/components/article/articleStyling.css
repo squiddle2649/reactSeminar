@@ -1,7 +1,19 @@
-.articleHeader{
-    width: 40%;
+@media (min-width: 760px) {
+    .articleContent{
+        width: 760px;
+    }
+}
+@media (max-width: 760px) {
+    .articleContent{
+        width: 100%;
+    }
+}
+.adjacentArticlesContainer{
+    display: flex;
+    justify-content: space-between;
 }
 .articleContainer{
+    position: relative;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -10,8 +22,16 @@
     font-size:larger;
     font-weight: 500;
 }
-.articleHeader{
+.pageContainer{
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+.articleContent{
     align-items: start;
+    
+
 }
 li{
     margin-top:10px;

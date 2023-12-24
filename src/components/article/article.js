@@ -4,13 +4,19 @@ import './articleStyling.css'
 function Article(props){
     
     const childrenArray = React.Children.toArray(props.children);
+    return <div className='pageContainer'>
+        
+            <div className="articleContainer">
+                <div className = "articleContent">
+                <hr></hr>
 
-    return <div className="articleContainer">
-            <div className = "articleHeader">
-            <hr></hr>
-                
-                {childrenArray}</div>
-        </div>
+                {childrenArray}
+                </div>
+            
+                </div>
+        
+        
+    </div>
     
 
 }
